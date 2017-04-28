@@ -98,63 +98,33 @@
 
   "actuators": [
     {
-      "id": "led_red_1",
-      "topic": "{{api}}/topic/actuators/led_red_1/cmd",
-      "title": "Red Light",
-      "type": "pwm_actuator"
-    },
-    {
-      "id": "led_blue_1",
-      "topic": "{{api}}/topic/actuators/led_blue_1/cmd",
-      "title": "Blue Light",
-      "type": "pwm_actuator"
-    },
-    {
-      "id": "led_white_1",
-      "topic": "{{api}}/topic/actuators/led_white_1/cmd",
-      "title": "White Light",
-      "type": "pwm_actuator"
-    },
-    {
-      "id": "pump_1_nutrient_a_1",
-      "topic": "{{api}}/topic/actuators/pump_1_nutrient_a_1/cmd",
-      "title": "Nutrient A",
+      "id": "grow_lights_1",
+      "topic": "{{api}}/topic/actuators/grow_lights_1/cmd",
+      "title": "Grow Lights",
       "type": "binary_actuator"
     },
     {
-      "id": "pump_2_nutrient_b_1",
-      "topic": "{{api}}/topic/actuators/pump_2_nutrient_b_1/cmd",
-      "title": "Nutrient B",
+      "id": "humidifier_1",
+      "topic": "{{api}}/topic/actuators/humidifier_1/cmd",
+      "title": "Humidifier",
       "type": "binary_actuator"
     },
     {
-      "id": "pump_3_ph_up_1",
-      "topic": "{{api}}/topic/actuators/pump_3_ph_up_1/cmd",
-      "title": "pH Up",
-      "type": "binary_actuator"
-    },
-    {
-      "id": "pump_4_ph_down_1",
-      "topic": "{{api}}/topic/actuators/pump_4_ph_down_1/cmd",
-      "title": "pH Down",
-      "type": "binary_actuator"
-    },
-    {
-      "id": "pump_5_water_1",
-      "topic": "{{api}}/topic/actuators/pump_5_water_1/cmd",
-      "title": "Water",
+      "id": "chamber_fan_1",
+      "topic": "{{api}}/topic/actuators/chamber_fan_1/cmd",
+      "title": "Chamber Fan",
       "type": "binary_actuator"
     },
     {
       "id": "heater_core_1_1",
       "topic": "{{api}}/topic/actuators/heater_core_1_1/cmd",
-      "title": "Heater Core 1",
+      "title": "Heater Core",
       "type": "binary_actuator"
     },
     {
-      "id": "heater_core_2_1",
-      "topic": "{{api}}/topic/actuators/heater_core_2_1/cmd",
-      "title": "Heater Core 2",
+      "id": "water_circulation_pump_1",
+      "topic": "{{api}}/topic/actuators/water_circulation_pump_1/cmd",
+      "title": "Water Circulation Pump",
       "type": "binary_actuator"
     },
     {
